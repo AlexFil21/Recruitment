@@ -1,0 +1,96 @@
+.middle-component {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+}
+
+.middle-component-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.middle-comp {
+    color: blue;
+    max-width: 50%;
+}
+
+.middle-comp img {
+    width: 50vw;
+    max-height: 100vh;
+}
+
+.middle-component-main-descr1 {
+    text-align: left;
+    font-size: 25px;
+    margin: auto;
+    color: rgb(27, 27, 27);
+    padding: 0 2% 0 2%;
+}
+
+.middle-component-main-descr1 span {
+    display: block;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    font: bold 40pt helvetica, arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+.middle-component-main-descr2 {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    color: rgb(27, 27, 27);
+}
+
+.middle-component-main-descr2 span {
+    display: block;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    font: bold 40pt helvetica, arial, sans-serif;
+    margin-top: 100px;
+}
+
+.middle-component-main-descr2 p
+{
+    height: 300px;
+    overflow-y: scroll ;
+    text-align: center;
+    margin: 0 60px;
+}
+
+.middle-component-number {
+    position: absolute;
+    font-size: 300px;
+    color: #ebe7e7;
+    right: 50px;
+    line-height: .8;
+    bottom: 10%;
+    display: block;
+    z-index: -1;
+}
+
+.number2 {
+    left: 20px;
+    top: 33%;
+}
+.number3 {
+    bottom: 33%;
+    right: 20px;
+}
+
+.middle-component-main-dot {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+}
+
+.dotted1 {
+   bottom: 25%;
+   right: 3%;
+}
+
+.dotted {
+    left: 0;
+    top: 7%;
+}

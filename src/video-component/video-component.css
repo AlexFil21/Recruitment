@@ -1,0 +1,192 @@
+.video-component {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.video-component-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: -2;
+}
+
+.video-component-item {
+    position: relative;
+    width: 60vw;
+    margin: auto;
+}
+
+.video-component-item video {
+    width: 60vw;
+    display: block;
+}
+
+.video-title {
+    display: block;
+    width: 100px;
+    margin: auto;
+    font-size: 50px;
+    color: #fff;
+    font-family: Impact, fantasy;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.video-component-sqr {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-component-number {
+    position: absolute;
+    left: 37%;
+    top: -3%;
+    font-size: 300px;
+    color: #ebe7e7;
+    line-height: .8;
+    bottom: 10%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.video-component-dotted { 
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 20%;
+    height: 60%;
+}
+
+.vcd {
+    left: 15%;
+}
+.vcd1 {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    width: 20%;
+    z-index: -1;
+}
+
+.video-component-item-bg {
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 29, 28);
+    opacity: 0.7;
+}
+
+
+.video-component-item-bg-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: rgb(29, 28, 28);
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.video-component-item-bg-btn img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    transform: translate(10%, 100%);
+}
+
+.video-component-item-bg-btn:hover {
+    background: rgba(255,245,215,0);
+    border: 2px solid #fff;
+}
+
+.video-component-animation{
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.video-component-animation-item {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(245, 248, 248);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-overflow-component {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 100;
+}
+.video-overflow-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(5, 5, 5);
+    z-index: 101;
+    opacity: 0.9;
+}
+
+.video-overflow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 55vw;
+    z-index: 102;
+}
+.video-overflow video {
+    width: 55vw;
+    display: block;
+    z-index: 120;
+    outline: none
+}
+
+.video-overflow-btn {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+    z-index: 120;
+    cursor: pointer;
+    transition: 0.4s ease-out
+}
+
+.video-overflow-btn img {
+    transform: translateY(50%);
+    width: 20px;
+    height: 20px;
+} 
+
+.video-overflow-btn:hover {
+    transition: 0.4s ease-out;
+    transform: rotate(90deg);
+}

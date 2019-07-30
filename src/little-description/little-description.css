@@ -1,0 +1,115 @@
+.description {
+    position: relative;
+    width: 75vw;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.description span {
+    display: block;
+    font-size: 50px;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+}
+
+.little-descr {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.little-descr-sqr {
+    position: relative;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.little-descr-sqr-shadow {
+    display: block;
+    position: absolute;
+    right: 30%;
+    top: -30%;
+    background-color: #ebe7e7;
+    width: 43px;
+    height: 43px;
+    z-index: -1
+}
+
+.sh-sqr2 {
+    left: 30%;
+    top: 120%;
+}
+.sh-sqr3 {
+    left: 30%;
+}
+.sh-sqr4 {
+    right: 30%;
+    top: 120%;
+}
+
+.little-descr-sqr-img {
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.little-descr-sqr-img img {
+    width: 40px;
+    height: 40px;
+    transform: translateY(40%);
+    padding: 2px;
+}
+
+.description button {
+  margin-top: 250px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  padding: 8px 25px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  outline: none
+}
+
+.description button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+    transition: 0.4s ease
+}
+
+.number4 {
+    position: absolute;
+    display: block;
+    font-size: 300px;
+    color: #ebe7e7;
+    top: 35%;
+    left: -10%;
+    line-height: .8;
+    bottom: 10%;
+    z-index: -1;
+}
+
+.description-dotted {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+    z-index: -1
+}

@@ -1,0 +1,256 @@
+.main-page {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    position: relative;
+    width: 100%;
+    padding: 1% 0 0 3%;
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+.main-page-lng {
+    position: absolute;
+    top: 0;
+    right: -0.5%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-page-lng-moover{
+    width: 45%;
+    height: 15%;
+    background-color: #000000;
+}
+.main-page-lng-chng{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    border: 2px solid black;
+    color: #fff;
+    cursor: pointer;   
+}
+
+.main-page-lng-chng:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s ease-out;
+}
+
+.main-page-lng-chng span {
+    font-size: 23px;
+}
+
+.main-page-img {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 430px;
+    height: 430px;
+    background-color: rgb(207, 204, 204);
+    border-radius: 100%;
+    z-index: 100;
+}
+.main-page-img-nick{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    transform: translateX(-30%);
+    font-size: 35px;
+    background-color: #fff;
+    padding: 3px 25px;
+}
+
+.main-page-img>img {
+    position: absolute;
+    left: 10%;
+    top: -19%;
+    width: 80%;
+    height: 120%;
+}
+
+.main-page-dotted {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 290px;
+    height: 430px;
+    transform: translateX(-90%);
+    z-index: -1
+}
+.main-page-dotted1 {
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    width: 290px;
+    height: 430px;
+    z-index: -1
+}
+
+.main-page-double_name{
+    display: block;
+    width: 600px;
+    transform: rotate(-90deg);
+    padding: 5px;
+}
+
+.main-page-double_name span{
+    display: block;
+    opacity: 0.1;
+}
+
+.main-page-double_name-big {
+    font-size: 67px;
+    transform: translateX(50%);
+}
+.main-page-double_name-sm {
+    font-size: 40px;
+    transform: translateX(65%);
+}
+
+.main-page-studio {
+    position: absolute;
+    left: -20%;
+    top: -15%;
+    width: 100px;
+    height: 100px;
+    font-size: 22px;
+    white-space: nowrap;
+    text-align: center;
+}
+.main-page-studio div{
+    text-align: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    background-color: rgb(236, 234, 234);
+    padding-top: 50%;
+    transform: translateX(20%);
+    border: 4px solid rgb(245, 240, 240);
+    cursor: pointer;
+}
+.main-page-studio div:hover{
+    border: 4px solid rgb(160, 159, 159);
+    opacity: 0.6;
+    transition: .5s ease
+}
+.main-page-studio img{
+    width: 40px;
+    height: 40px;
+    transform: translateY(-70%);
+}
+
+.main-page-links {
+    position: absolute;
+    left: 7%;
+    top: 40%;
+    width: 10%;
+}
+.main-page-links-google, .main-page-links-inst{
+    background-color: #000;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin: 25% 0 25%;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.main-page-links-google img{
+    width: 22px;
+    height: 22px;
+    transform: translateY(30%);
+}
+
+.main-page-links-inst span {
+    font-size: 25px;
+}
+
+.main-page-links-google:hover, .main-page-links-inst:hover {
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+}
+
+
+.main-page-video-link {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-page-video-link div{
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color: rgb(39, 38, 38);
+    padding-top: 50%;
+    border: 4px solid rgb(73, 72, 72);
+}
+.main-page-video-link img{
+    width: 33px;
+    height: 33px;
+    transform: translateY(-80%)
+}
+
+.main-page-video-link div:hover {
+    background-color: #fff;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -25px;
+}
+
+footer span {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+}
+footer button {
+    color: #fff;
+    background-color: #000;
+    padding: 7px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    outline: none
+}
+
+footer button:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: 0.4s ease;
+}
+
+.page-number {
+    position: absolute;
+    font-size: 300px;
+    color: #ebe7e7;
+    right: 50px;
+    line-height: .8;
+    bottom: 10%;
+    display: block;
+    z-index: -1;
+}
+

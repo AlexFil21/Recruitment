@@ -1,0 +1,96 @@
+.footer {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.footer h3 {
+    color: #fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding: 40px 40px ;
+}
+
+.reqrLinks {
+    padding: 0px 40px;
+}
+
+.reqrLinks-google {
+    display: flex;
+    flex-direction: row;
+}
+
+.reqrLinks-inst {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+
+.reqrLinks-google span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.reqrLinks-google img {
+    width: 25px;
+    height: 25px;
+    transform: translate(0%, 20%)
+}
+
+.reqrLinks-google a {
+    color: #fff;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 3;
+}
+
+.reqrLinks-inst span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.reqrLinks-inst a {
+    color: #fff;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 3;
+}
+
+.footer button {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    display: block;
+    background-color: #fff;
+    color: #000;
+    font-size: 40px;
+    padding: 10px 20px;
+    z-index: 4;
+    cursor: pointer;
+    outline: none
+}
+
+.footer button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.footer-dooted {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 20%;
+}

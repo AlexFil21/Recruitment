@@ -1,0 +1,105 @@
+.pdf-guide {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+}
+.pdf-guide-bgc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(190, 187, 187);
+    z-index: -2;
+    opacity: 0.2;
+}
+
+.pdf-guide-content {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px
+}
+
+.pdf-guide-content h4 {
+    font-size: 40px;
+    font-family: Impact;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.pdf-guide-content h5 {
+    font-size: 30px;
+}
+
+.pdf-guide-content input {
+    width: 40%;
+    padding: 7px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pdf-guide-content button {
+    display: block;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 33px;
+    padding: 10px 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    outline: none
+}
+
+.pdf-guide-content button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+}
+
+.pdf-guide-number {
+    position: absolute;
+    display: block;
+    font-size: 300px;
+    color: white;
+    bottom: 20%;
+    right: 5%;
+    line-height: .8;
+    z-index: -1;
+}
+
+.pdf-guide-dotted {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pdf-guide .dotted1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-60%)
+}
+
+.pdf-guide .dotted2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(60%)
+}
+
+.pdf-guide .dotted3 {
+    position: absolute;
+    left: 30%;
+    bottom: -5%;
+    width: 40%;
+    height: 30%;
+    transform: rotate(0deg);
+    overflow: hidden;
+}
+
+.pdf-guide .dotted3 div {
+    transform: rotate(90deg);
+}
